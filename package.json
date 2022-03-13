@@ -6,7 +6,13 @@
   "repository": "https://github.com/dyegoalmeida/api-my-contacts.git",
   "author": "Dyego dos Santos Almeida <dyego.almeida@tradetechnology.com.br>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
